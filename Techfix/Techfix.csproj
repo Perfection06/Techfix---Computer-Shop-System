@@ -1,0 +1,518 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Techfix</RootNamespace>
+    <AssemblyName>Techfix</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\DeliveryService\DeliveryService.disco" />
+    <None Include="Connected Services\DeliveryService\configuration91.svcinfo" />
+    <None Include="Connected Services\DeliveryService\configuration.svcinfo" />
+    <None Include="Connected Services\DeliveryService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Connected Services\ProcurementService\ProcurementService.disco" />
+    <None Include="Connected Services\ProcurementService\configuration91.svcinfo" />
+    <None Include="Connected Services\ProcurementService\configuration.svcinfo" />
+    <None Include="Connected Services\ProcurementService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Connected Services\QuotationService\QuotationService.disco" />
+    <None Include="Connected Services\QuotationService\configuration91.svcinfo" />
+    <None Include="Connected Services\QuotationService\configuration.svcinfo" />
+    <None Include="Connected Services\QuotationService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="Connected Services\QuotationService\Techfix.QuotationService.GetQuotationsByRFQIDResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\QuotationService\Techfix.QuotationService.Quotation.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Connected Services\RFQService\RFQService.disco" />
+    <None Include="Connected Services\RFQService\configuration91.svcinfo" />
+    <None Include="Connected Services\RFQService\configuration.svcinfo" />
+    <None Include="Connected Services\RFQService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Connected Services\SupplierService\SupplierService.disco" />
+    <None Include="Connected Services\SupplierService\configuration91.svcinfo" />
+    <None Include="Connected Services\SupplierService\configuration.svcinfo" />
+    <None Include="Connected Services\SupplierService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="Connected Services\UserService\Techfix.UserService.AddUserResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\UserService\Techfix.UserService.DeleteUserResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\UserService\Techfix.UserService.GetAllUsersResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\UserService\Techfix.UserService.GetUserByIdResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\UserService\Techfix.UserService.UpdateUserResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\UserService\Techfix.UserService.UserModel.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Connected Services\UserService\UserService.disco" />
+    <None Include="Connected Services\UserService\configuration91.svcinfo" />
+    <None Include="Connected Services\UserService\configuration.svcinfo" />
+    <None Include="Connected Services\UserService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="Pages\Add_Delivery.aspx" />
+    <Content Include="Pages\Add_Supplier.aspx" />
+    <Content Include="Pages\Add_User.aspx" />
+    <Content Include="Pages\Admin_Dashboard.aspx" />
+    <Content Include="Pages\Create_RFQ.aspx" />
+    <Content Include="Pages\Delivery.aspx" />
+    <Content Include="Pages\Edit_Delivery.aspx" />
+    <Content Include="Pages\Edit_RFQ.aspx" />
+    <Content Include="Pages\Edit_Supplier.aspx" />
+    <Content Include="Pages\Edit_User.aspx" />
+    <Content Include="Pages\Inventory.aspx" />
+    <Content Include="Pages\Login.aspx" />
+    <Content Include="Pages\Manager_Dashboard.aspx" />
+    <Content Include="Pages\Manage_RFQ.aspx" />
+    <Content Include="Pages\Orders.aspx" />
+    <Content Include="Pages\Order_Placement.aspx" />
+    <Content Include="Pages\Order_Tracking.aspx" />
+    <Content Include="Pages\Reports.aspx" />
+    <Content Include="Pages\RFQ_Management.aspx" />
+    <Content Include="Pages\Quotations.aspx" />
+    <Content Include="Pages\Submit_Quotation.aspx" />
+    <Content Include="Pages\Supplier_Dashboard.aspx" />
+    <Content Include="Pages\Supplier_Management.aspx" />
+    <Content Include="Pages\Update_Supplier.aspx" />
+    <Content Include="Pages\Update_User.aspx" />
+    <Content Include="Pages\User_Management.aspx" />
+    <Content Include="Pages\View_Delivery.aspx" />
+    <Content Include="Pages\View_Purchase.aspx" />
+    <Content Include="Pages\View_RFQ.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Properties\DataSources\System.Data.DataTable.datasource" />
+    <None Include="Connected Services\DeliveryService\DeliveryService.wsdl" />
+    <None Include="Connected Services\ProcurementService\ProcurementService.wsdl" />
+    <Content Include="Connected Services\ProcurementService\Techfix.ProcurementService.SubmitRFQResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Connected Services\QuotationService\QuotationService.wsdl" />
+    <Content Include="Connected Services\QuotationService\Techfix.QuotationService.AcceptQuotationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\QuotationService\Techfix.QuotationService.SubmitQuotationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Connected Services\RFQService\RFQService.wsdl" />
+    <Content Include="Connected Services\RFQService\Techfix.RFQService.GetAllRFQsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\RFQService\Techfix.RFQService.GetQuotationsByRFQIDResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\RFQService\Techfix.RFQService.GetRFQByIDResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\RFQService\Techfix.RFQService.ManageRFQResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\RFQService\Techfix.RFQService.Quotation.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\RFQService\Techfix.RFQService.RFQ.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Connected Services\SupplierService\SupplierService.wsdl" />
+    <Content Include="Connected Services\SupplierService\Techfix.SupplierService.AddSupplierResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\SupplierService\Techfix.SupplierService.GetAllSuppliersResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\SupplierService\Techfix.SupplierService.GetSupplierByIDResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\SupplierService\Techfix.SupplierService.SupplierModel.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Connected Services\SupplierService\Techfix.SupplierService.UpdateSupplierResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Connected Services\UserService\UserService.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Connected Services\DeliveryService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\ProcurementService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\QuotationService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\RFQService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\SupplierService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\UserService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Add_Delivery.aspx.cs">
+      <DependentUpon>Add_Delivery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Add_Delivery.aspx.designer.cs">
+      <DependentUpon>Add_Delivery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Add_Supplier.aspx.cs">
+      <DependentUpon>Add_Supplier.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Add_Supplier.aspx.designer.cs">
+      <DependentUpon>Add_Supplier.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Add_User.aspx.cs">
+      <DependentUpon>Add_User.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Add_User.aspx.designer.cs">
+      <DependentUpon>Add_User.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Admin_Dashboard.aspx.cs">
+      <DependentUpon>Admin_Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Admin_Dashboard.aspx.designer.cs">
+      <DependentUpon>Admin_Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Create_RFQ.aspx.cs">
+      <DependentUpon>Create_RFQ.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Create_RFQ.aspx.designer.cs">
+      <DependentUpon>Create_RFQ.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Delivery.aspx.cs">
+      <DependentUpon>Delivery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Delivery.aspx.designer.cs">
+      <DependentUpon>Delivery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Edit_Delivery.aspx.cs">
+      <DependentUpon>Edit_Delivery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Edit_Delivery.aspx.designer.cs">
+      <DependentUpon>Edit_Delivery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Edit_RFQ.aspx.cs">
+      <DependentUpon>Edit_RFQ.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Edit_RFQ.aspx.designer.cs">
+      <DependentUpon>Edit_RFQ.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Edit_Supplier.aspx.cs">
+      <DependentUpon>Edit_Supplier.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Edit_Supplier.aspx.designer.cs">
+      <DependentUpon>Edit_Supplier.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Edit_User.aspx.cs">
+      <DependentUpon>Edit_User.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Edit_User.aspx.designer.cs">
+      <DependentUpon>Edit_User.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Inventory.aspx.cs">
+      <DependentUpon>Inventory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Inventory.aspx.designer.cs">
+      <DependentUpon>Inventory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Manager_Dashboard.aspx.cs">
+      <DependentUpon>Manager_Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Manager_Dashboard.aspx.designer.cs">
+      <DependentUpon>Manager_Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Manage_RFQ.aspx.cs">
+      <DependentUpon>Manage_RFQ.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Manage_RFQ.aspx.designer.cs">
+      <DependentUpon>Manage_RFQ.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Orders.aspx.cs">
+      <DependentUpon>Orders.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Orders.aspx.designer.cs">
+      <DependentUpon>Orders.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Order_Placement.aspx.cs">
+      <DependentUpon>Order_Placement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Order_Placement.aspx.designer.cs">
+      <DependentUpon>Order_Placement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Order_Tracking.aspx.cs">
+      <DependentUpon>Order_Tracking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Order_Tracking.aspx.designer.cs">
+      <DependentUpon>Order_Tracking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Reports.aspx.cs">
+      <DependentUpon>Reports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Reports.aspx.designer.cs">
+      <DependentUpon>Reports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\RFQ_Management.aspx.cs">
+      <DependentUpon>RFQ_Management.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\RFQ_Management.aspx.designer.cs">
+      <DependentUpon>RFQ_Management.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Quotations.aspx.cs">
+      <DependentUpon>Quotations.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Quotations.aspx.designer.cs">
+      <DependentUpon>Quotations.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Submit_Quotation.aspx.cs">
+      <DependentUpon>Submit_Quotation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Submit_Quotation.aspx.designer.cs">
+      <DependentUpon>Submit_Quotation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Supplier_Dashboard.aspx.cs">
+      <DependentUpon>Supplier_Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Supplier_Dashboard.aspx.designer.cs">
+      <DependentUpon>Supplier_Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Supplier_Management.aspx.cs">
+      <DependentUpon>Supplier_Management.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Supplier_Management.aspx.designer.cs">
+      <DependentUpon>Supplier_Management.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Update_Supplier.aspx.cs">
+      <DependentUpon>Update_Supplier.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Update_Supplier.aspx.designer.cs">
+      <DependentUpon>Update_Supplier.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Update_User.aspx.cs">
+      <DependentUpon>Update_User.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Update_User.aspx.designer.cs">
+      <DependentUpon>Update_User.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\User_Management.aspx.cs">
+      <DependentUpon>User_Management.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\User_Management.aspx.designer.cs">
+      <DependentUpon>User_Management.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\View_Delivery.aspx.cs">
+      <DependentUpon>View_Delivery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\View_Delivery.aspx.designer.cs">
+      <DependentUpon>View_Delivery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\View_Purchase.aspx.cs">
+      <DependentUpon>View_Purchase.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\View_Purchase.aspx.designer.cs">
+      <DependentUpon>View_Purchase.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\View_RFQ.aspx.cs">
+      <DependentUpon>View_RFQ.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\View_RFQ.aspx.designer.cs">
+      <DependentUpon>View_RFQ.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TechfixSystem\TechfixSystem.csproj">
+      <Project>{db5d2ea3-43dc-4a90-afbd-cb20ed267036}</Project>
+      <Name>TechfixSystem</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\DeliveryService\" />
+    <WCFMetadataStorage Include="Connected Services\ProcurementService\" />
+    <WCFMetadataStorage Include="Connected Services\QuotationService\" />
+    <WCFMetadataStorage Include="Connected Services\RFQService\" />
+    <WCFMetadataStorage Include="Connected Services\SupplierService\" />
+    <WCFMetadataStorage Include="Connected Services\UserService\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>57398</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:57398/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

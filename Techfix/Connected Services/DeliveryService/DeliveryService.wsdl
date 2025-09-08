@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:tns="http://tempuri.org/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="AddDelivery">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="purchaseOrderID" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="shippingConfirmation" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="estimatedDeliveryDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddDeliveryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AddDeliveryResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateDeliveryStatus">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="deliveryID" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="status" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateDeliveryStatusResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UpdateDeliveryStatusResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateActualDeliveryDate">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="deliveryID" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="actualDeliveryDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateActualDeliveryDateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UpdateActualDeliveryDateResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDeliveryWithProductInfo">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetDeliveryWithProductInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDeliveryWithProductInfoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ReturnDelivery">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="deliveryID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ReturnDeliveryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ReturnDeliveryResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CancelDelivery">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="deliveryID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CancelDeliveryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CancelDeliveryResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAllDeliveryDetails">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetAllDeliveryDetailsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAllDeliveryDetailsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDeliveryDetailsByID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="deliveryID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDeliveryDetailsByIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDeliveryDetailsByIDResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdatePurchaseOrderStatus">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="purchaseOrderID" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="status" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdatePurchaseOrderStatusResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UpdatePurchaseOrderStatusResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="AddDeliverySoapIn">
+    <wsdl:part name="parameters" element="tns:AddDelivery" />
+  </wsdl:message>
+  <wsdl:message name="AddDeliverySoapOut">
+    <wsdl:part name="parameters" element="tns:AddDeliveryResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateDeliveryStatusSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateDeliveryStatus" />
+  </wsdl:message>
+  <wsdl:message name="UpdateDeliveryStatusSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateDeliveryStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateActualDeliveryDateSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateActualDeliveryDate" />
+  </wsdl:message>
+  <wsdl:message name="UpdateActualDeliveryDateSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateActualDeliveryDateResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDeliveryWithProductInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDeliveryWithProductInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetDeliveryWithProductInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDeliveryWithProductInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ReturnDeliverySoapIn">
+    <wsdl:part name="parameters" element="tns:ReturnDelivery" />
+  </wsdl:message>
+  <wsdl:message name="ReturnDeliverySoapOut">
+    <wsdl:part name="parameters" element="tns:ReturnDeliveryResponse" />
+  </wsdl:message>
+  <wsdl:message name="CancelDeliverySoapIn">
+    <wsdl:part name="parameters" element="tns:CancelDelivery" />
+  </wsdl:message>
+  <wsdl:message name="CancelDeliverySoapOut">
+    <wsdl:part name="parameters" element="tns:CancelDeliveryResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAllDeliveryDetailsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAllDeliveryDetails" />
+  </wsdl:message>
+  <wsdl:message name="GetAllDeliveryDetailsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAllDeliveryDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDeliveryDetailsByIDSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDeliveryDetailsByID" />
+  </wsdl:message>
+  <wsdl:message name="GetDeliveryDetailsByIDSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDeliveryDetailsByIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdatePurchaseOrderStatusSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdatePurchaseOrderStatus" />
+  </wsdl:message>
+  <wsdl:message name="UpdatePurchaseOrderStatusSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdatePurchaseOrderStatusResponse" />
+  </wsdl:message>
+  <wsdl:portType name="DeliveryServiceSoap">
+    <wsdl:operation name="AddDelivery">
+      <wsdl:input message="tns:AddDeliverySoapIn" />
+      <wsdl:output message="tns:AddDeliverySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDeliveryStatus">
+      <wsdl:input message="tns:UpdateDeliveryStatusSoapIn" />
+      <wsdl:output message="tns:UpdateDeliveryStatusSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateActualDeliveryDate">
+      <wsdl:input message="tns:UpdateActualDeliveryDateSoapIn" />
+      <wsdl:output message="tns:UpdateActualDeliveryDateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDeliveryWithProductInfo">
+      <wsdl:input message="tns:GetDeliveryWithProductInfoSoapIn" />
+      <wsdl:output message="tns:GetDeliveryWithProductInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ReturnDelivery">
+      <wsdl:input message="tns:ReturnDeliverySoapIn" />
+      <wsdl:output message="tns:ReturnDeliverySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CancelDelivery">
+      <wsdl:input message="tns:CancelDeliverySoapIn" />
+      <wsdl:output message="tns:CancelDeliverySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllDeliveryDetails">
+      <wsdl:input message="tns:GetAllDeliveryDetailsSoapIn" />
+      <wsdl:output message="tns:GetAllDeliveryDetailsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDeliveryDetailsByID">
+      <wsdl:input message="tns:GetDeliveryDetailsByIDSoapIn" />
+      <wsdl:output message="tns:GetDeliveryDetailsByIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePurchaseOrderStatus">
+      <wsdl:input message="tns:UpdatePurchaseOrderStatusSoapIn" />
+      <wsdl:output message="tns:UpdatePurchaseOrderStatusSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="DeliveryServiceSoap" type="tns:DeliveryServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AddDelivery">
+      <soap:operation soapAction="http://tempuri.org/AddDelivery" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDeliveryStatus">
+      <soap:operation soapAction="http://tempuri.org/UpdateDeliveryStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateActualDeliveryDate">
+      <soap:operation soapAction="http://tempuri.org/UpdateActualDeliveryDate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDeliveryWithProductInfo">
+      <soap:operation soapAction="http://tempuri.org/GetDeliveryWithProductInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReturnDelivery">
+      <soap:operation soapAction="http://tempuri.org/ReturnDelivery" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelDelivery">
+      <soap:operation soapAction="http://tempuri.org/CancelDelivery" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllDeliveryDetails">
+      <soap:operation soapAction="http://tempuri.org/GetAllDeliveryDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDeliveryDetailsByID">
+      <soap:operation soapAction="http://tempuri.org/GetDeliveryDetailsByID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePurchaseOrderStatus">
+      <soap:operation soapAction="http://tempuri.org/UpdatePurchaseOrderStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="DeliveryServiceSoap12" type="tns:DeliveryServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AddDelivery">
+      <soap12:operation soapAction="http://tempuri.org/AddDelivery" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDeliveryStatus">
+      <soap12:operation soapAction="http://tempuri.org/UpdateDeliveryStatus" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateActualDeliveryDate">
+      <soap12:operation soapAction="http://tempuri.org/UpdateActualDeliveryDate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDeliveryWithProductInfo">
+      <soap12:operation soapAction="http://tempuri.org/GetDeliveryWithProductInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReturnDelivery">
+      <soap12:operation soapAction="http://tempuri.org/ReturnDelivery" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelDelivery">
+      <soap12:operation soapAction="http://tempuri.org/CancelDelivery" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllDeliveryDetails">
+      <soap12:operation soapAction="http://tempuri.org/GetAllDeliveryDetails" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDeliveryDetailsByID">
+      <soap12:operation soapAction="http://tempuri.org/GetDeliveryDetailsByID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePurchaseOrderStatus">
+      <soap12:operation soapAction="http://tempuri.org/UpdatePurchaseOrderStatus" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="DeliveryService">
+    <wsdl:port name="DeliveryServiceSoap" binding="tns:DeliveryServiceSoap">
+      <soap:address location="http://localhost:56267/Services/DeliveryService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="DeliveryServiceSoap12" binding="tns:DeliveryServiceSoap12">
+      <soap12:address location="http://localhost:56267/Services/DeliveryService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

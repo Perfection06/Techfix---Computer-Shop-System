@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechfixSystem", "TechfixSystem\TechfixSystem.csproj", "{DB5D2EA3-43DC-4A90-AFBD-CB20ED267036}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Techfix", "Techfix\Techfix.csproj", "{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DB5D2EA3-43DC-4A90-AFBD-CB20ED267036} = {DB5D2EA3-43DC-4A90-AFBD-CB20ED267036}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB5D2EA3-43DC-4A90-AFBD-CB20ED267036}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB5D2EA3-43DC-4A90-AFBD-CB20ED267036}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB5D2EA3-43DC-4A90-AFBD-CB20ED267036}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB5D2EA3-43DC-4A90-AFBD-CB20ED267036}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

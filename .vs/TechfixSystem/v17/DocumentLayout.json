@@ -1,0 +1,915 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Project 01\\TechfixSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DB5D2EA3-43DC-4A90-AFBD-CB20ED267036}|TechfixSystem\\TechfixSystem.csproj|f:\\project 01\\techfixsystem\\techfixsystem\\models\\delivery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB5D2EA3-43DC-4A90-AFBD-CB20ED267036}|TechfixSystem\\TechfixSystem.csproj|solutionrelative:techfixsystem\\models\\delivery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|F:\\Project 01\\TechfixSystem\\techfix\\pages\\delivery.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|solutionrelative:techfix\\pages\\delivery.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|F:\\Project 01\\TechfixSystem\\techfix\\pages\\view_delivery.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|solutionrelative:techfix\\pages\\view_delivery.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|F:\\Project 01\\TechfixSystem\\techfix\\pages\\orders.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|solutionrelative:techfix\\pages\\orders.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|F:\\Project 01\\TechfixSystem\\techfix\\pages\\orders.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|solutionrelative:techfix\\pages\\orders.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|F:\\Project 01\\TechfixSystem\\techfix\\pages\\orders.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|solutionrelative:techfix\\pages\\orders.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|F:\\Project 01\\TechfixSystem\\techfix\\pages\\view_rfq.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|solutionrelative:techfix\\pages\\view_rfq.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|F:\\Project 01\\TechfixSystem\\techfix\\pages\\view_purchase.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|solutionrelative:techfix\\pages\\view_purchase.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|F:\\Project 01\\TechfixSystem\\techfix\\pages\\user_management.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|solutionrelative:techfix\\pages\\user_management.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|F:\\Project 01\\TechfixSystem\\techfix\\pages\\update_user.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|solutionrelative:techfix\\pages\\update_user.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|F:\\Project 01\\TechfixSystem\\techfix\\pages\\update_supplier.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|solutionrelative:techfix\\pages\\update_supplier.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|F:\\Project 01\\TechfixSystem\\techfix\\pages\\supplier_management.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|solutionrelative:techfix\\pages\\supplier_management.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|F:\\Project 01\\TechfixSystem\\techfix\\pages\\supplier_dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|solutionrelative:techfix\\pages\\supplier_dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|F:\\Project 01\\TechfixSystem\\techfix\\pages\\submit_quotation.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|solutionrelative:techfix\\pages\\submit_quotation.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|F:\\Project 01\\TechfixSystem\\techfix\\pages\\rfq_management.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|solutionrelative:techfix\\pages\\rfq_management.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|F:\\Project 01\\TechfixSystem\\techfix\\pages\\reports.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|solutionrelative:techfix\\pages\\reports.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|F:\\Project 01\\TechfixSystem\\techfix\\pages\\quotations.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|solutionrelative:techfix\\pages\\quotations.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|F:\\Project 01\\TechfixSystem\\techfix\\pages\\order_tracking.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|solutionrelative:techfix\\pages\\order_tracking.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|F:\\Project 01\\TechfixSystem\\techfix\\pages\\order_placement.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|solutionrelative:techfix\\pages\\order_placement.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|F:\\Project 01\\TechfixSystem\\techfix\\pages\\edit_user.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|solutionrelative:techfix\\pages\\edit_user.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|F:\\Project 01\\TechfixSystem\\techfix\\pages\\add_user.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|solutionrelative:techfix\\pages\\add_user.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|F:\\Project 01\\TechfixSystem\\techfix\\pages\\edit_supplier.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|solutionrelative:techfix\\pages\\edit_supplier.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|F:\\Project 01\\TechfixSystem\\techfix\\pages\\manager_dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|solutionrelative:techfix\\pages\\manager_dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|F:\\Project 01\\TechfixSystem\\techfix\\pages\\manage_rfq.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|solutionrelative:techfix\\pages\\manage_rfq.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|F:\\Project 01\\TechfixSystem\\techfix\\pages\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|solutionrelative:techfix\\pages\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|F:\\Project 01\\TechfixSystem\\techfix\\pages\\inventory.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|solutionrelative:techfix\\pages\\inventory.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|F:\\Project 01\\TechfixSystem\\techfix\\pages\\edit_rfq.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|solutionrelative:techfix\\pages\\edit_rfq.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|F:\\Project 01\\TechfixSystem\\techfix\\pages\\edit_delivery.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|solutionrelative:techfix\\pages\\edit_delivery.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|F:\\Project 01\\TechfixSystem\\techfix\\pages\\create_rfq.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|solutionrelative:techfix\\pages\\create_rfq.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|F:\\Project 01\\TechfixSystem\\techfix\\pages\\admin_dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|solutionrelative:techfix\\pages\\admin_dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|F:\\Project 01\\TechfixSystem\\techfix\\pages\\add_supplier.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|solutionrelative:techfix\\pages\\add_supplier.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|F:\\Project 01\\TechfixSystem\\techfix\\pages\\add_delivery.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|solutionrelative:techfix\\pages\\add_delivery.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|F:\\Project 01\\TechfixSystem\\techfix\\pages\\update_user.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|solutionrelative:techfix\\pages\\update_user.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB5D2EA3-43DC-4A90-AFBD-CB20ED267036}|TechfixSystem\\TechfixSystem.csproj|F:\\Project 01\\TechfixSystem\\techfixsystem\\services\\userservice.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB5D2EA3-43DC-4A90-AFBD-CB20ED267036}|TechfixSystem\\TechfixSystem.csproj|solutionrelative:techfixsystem\\services\\userservice.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB5D2EA3-43DC-4A90-AFBD-CB20ED267036}|TechfixSystem\\TechfixSystem.csproj|F:\\Project 01\\TechfixSystem\\techfixsystem\\applogic\\userlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB5D2EA3-43DC-4A90-AFBD-CB20ED267036}|TechfixSystem\\TechfixSystem.csproj|solutionrelative:techfixsystem\\applogic\\userlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|F:\\Project 01\\TechfixSystem\\techfix\\pages\\edit_user.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|solutionrelative:techfix\\pages\\edit_user.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|F:\\Project 01\\TechfixSystem\\techfix\\pages\\add_user.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|solutionrelative:techfix\\pages\\add_user.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|F:\\Project 01\\TechfixSystem\\techfix\\pages\\add_delivery.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|solutionrelative:techfix\\pages\\add_delivery.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB5D2EA3-43DC-4A90-AFBD-CB20ED267036}|TechfixSystem\\TechfixSystem.csproj|F:\\Project 01\\TechfixSystem\\techfixsystem\\services\\deliveryservice.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB5D2EA3-43DC-4A90-AFBD-CB20ED267036}|TechfixSystem\\TechfixSystem.csproj|solutionrelative:techfixsystem\\services\\deliveryservice.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB5D2EA3-43DC-4A90-AFBD-CB20ED267036}|TechfixSystem\\TechfixSystem.csproj|F:\\Project 01\\TechfixSystem\\techfixsystem\\applogic\\deliverylogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB5D2EA3-43DC-4A90-AFBD-CB20ED267036}|TechfixSystem\\TechfixSystem.csproj|solutionrelative:techfixsystem\\applogic\\deliverylogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB5D2EA3-43DC-4A90-AFBD-CB20ED267036}|TechfixSystem\\TechfixSystem.csproj|F:\\Project 01\\TechfixSystem\\techfixsystem\\dblayer\\purchaseorderdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB5D2EA3-43DC-4A90-AFBD-CB20ED267036}|TechfixSystem\\TechfixSystem.csproj|solutionrelative:techfixsystem\\dblayer\\purchaseorderdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB5D2EA3-43DC-4A90-AFBD-CB20ED267036}|TechfixSystem\\TechfixSystem.csproj|F:\\Project 01\\TechfixSystem\\techfixsystem\\dblayer\\deliverydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB5D2EA3-43DC-4A90-AFBD-CB20ED267036}|TechfixSystem\\TechfixSystem.csproj|solutionrelative:techfixsystem\\dblayer\\deliverydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|F:\\Project 01\\TechfixSystem\\techfix\\pages\\delivery.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|solutionrelative:techfix\\pages\\delivery.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|F:\\Project 01\\TechfixSystem\\techfix\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|solutionrelative:techfix\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB5D2EA3-43DC-4A90-AFBD-CB20ED267036}|TechfixSystem\\TechfixSystem.csproj|F:\\Project 01\\TechfixSystem\\techfixsystem\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{DB5D2EA3-43DC-4A90-AFBD-CB20ED267036}|TechfixSystem\\TechfixSystem.csproj|solutionrelative:techfixsystem\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|F:\\Project 01\\TechfixSystem\\techfix\\pages\\edit_delivery.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|solutionrelative:techfix\\pages\\edit_delivery.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB5D2EA3-43DC-4A90-AFBD-CB20ED267036}|TechfixSystem\\TechfixSystem.csproj|F:\\Project 01\\TechfixSystem\\techfixsystem\\dblayer\\dbaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB5D2EA3-43DC-4A90-AFBD-CB20ED267036}|TechfixSystem\\TechfixSystem.csproj|solutionrelative:techfixsystem\\dblayer\\dbaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|F:\\Project 01\\TechfixSystem\\techfix\\pages\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|solutionrelative:techfix\\pages\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|F:\\Project 01\\TechfixSystem\\techfix\\pages\\inventory.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|solutionrelative:techfix\\pages\\inventory.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|F:\\Project 01\\TechfixSystem\\techfix\\pages\\view_delivery.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A4EFE0-39FE-4278-A021-F6BC25FD89E1}|Techfix\\Techfix.csproj|solutionrelative:techfix\\pages\\view_delivery.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB5D2EA3-43DC-4A90-AFBD-CB20ED267036}|TechfixSystem\\TechfixSystem.csproj|F:\\Project 01\\TechfixSystem\\techfixsystem\\dblayer\\rfqdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB5D2EA3-43DC-4A90-AFBD-CB20ED267036}|TechfixSystem\\TechfixSystem.csproj|solutionrelative:techfixsystem\\dblayer\\rfqdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB5D2EA3-43DC-4A90-AFBD-CB20ED267036}|TechfixSystem\\TechfixSystem.csproj|F:\\Project 01\\TechfixSystem\\techfixsystem\\applogic\\rfqlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB5D2EA3-43DC-4A90-AFBD-CB20ED267036}|TechfixSystem\\TechfixSystem.csproj|solutionrelative:techfixsystem\\applogic\\rfqlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB5D2EA3-43DC-4A90-AFBD-CB20ED267036}|TechfixSystem\\TechfixSystem.csproj|F:\\Project 01\\TechfixSystem\\techfixsystem\\applogic\\quotationlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB5D2EA3-43DC-4A90-AFBD-CB20ED267036}|TechfixSystem\\TechfixSystem.csproj|solutionrelative:techfixsystem\\applogic\\quotationlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB5D2EA3-43DC-4A90-AFBD-CB20ED267036}|TechfixSystem\\TechfixSystem.csproj|F:\\Project 01\\TechfixSystem\\techfixsystem\\services\\quotationservice.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB5D2EA3-43DC-4A90-AFBD-CB20ED267036}|TechfixSystem\\TechfixSystem.csproj|solutionrelative:techfixsystem\\services\\quotationservice.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Delivery.cs",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\TechfixSystem\\Models\\Delivery.cs",
+              "RelativeDocumentMoniker": "TechfixSystem\\Models\\Delivery.cs",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\TechfixSystem\\Models\\Delivery.cs",
+              "RelativeToolTip": "TechfixSystem\\Models\\Delivery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T20:20:31.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Orders.aspx.designer.cs",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Orders.aspx.designer.cs",
+              "RelativeDocumentMoniker": "Techfix\\Pages\\Orders.aspx.designer.cs",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Orders.aspx.designer.cs",
+              "RelativeToolTip": "Techfix\\Pages\\Orders.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T19:53:13.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Order_Tracking.aspx",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Order_Tracking.aspx",
+              "RelativeDocumentMoniker": "Techfix\\Pages\\Order_Tracking.aspx",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Order_Tracking.aspx",
+              "RelativeToolTip": "Techfix\\Pages\\Order_Tracking.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-24T19:25:18.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Edit_RFQ.aspx",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Edit_RFQ.aspx",
+              "RelativeDocumentMoniker": "Techfix\\Pages\\Edit_RFQ.aspx",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Edit_RFQ.aspx",
+              "RelativeToolTip": "Techfix\\Pages\\Edit_RFQ.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-24T19:19:59.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Manage_RFQ.aspx",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Manage_RFQ.aspx",
+              "RelativeDocumentMoniker": "Techfix\\Pages\\Manage_RFQ.aspx",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Manage_RFQ.aspx",
+              "RelativeToolTip": "Techfix\\Pages\\Manage_RFQ.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-24T19:17:59.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Create_RFQ.aspx",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Create_RFQ.aspx",
+              "RelativeDocumentMoniker": "Techfix\\Pages\\Create_RFQ.aspx",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Create_RFQ.aspx",
+              "RelativeToolTip": "Techfix\\Pages\\Create_RFQ.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-24T19:13:07.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RFQ_Management.aspx",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\RFQ_Management.aspx",
+              "RelativeDocumentMoniker": "Techfix\\Pages\\RFQ_Management.aspx",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\RFQ_Management.aspx",
+              "RelativeToolTip": "Techfix\\Pages\\RFQ_Management.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-24T19:09:09.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Submit_Quotation.aspx",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Submit_Quotation.aspx",
+              "RelativeDocumentMoniker": "Techfix\\Pages\\Submit_Quotation.aspx",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Submit_Quotation.aspx",
+              "RelativeToolTip": "Techfix\\Pages\\Submit_Quotation.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-24T18:41:57.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Quotations.aspx",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Quotations.aspx",
+              "RelativeDocumentMoniker": "Techfix\\Pages\\Quotations.aspx",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Quotations.aspx",
+              "RelativeToolTip": "Techfix\\Pages\\Quotations.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-24T18:34:56.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "View_Purchase.aspx",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\View_Purchase.aspx",
+              "RelativeDocumentMoniker": "Techfix\\Pages\\View_Purchase.aspx",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\View_Purchase.aspx",
+              "RelativeToolTip": "Techfix\\Pages\\View_Purchase.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-24T18:09:05.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "View_RFQ.aspx",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\View_RFQ.aspx",
+              "RelativeDocumentMoniker": "Techfix\\Pages\\View_RFQ.aspx",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\View_RFQ.aspx",
+              "RelativeToolTip": "Techfix\\Pages\\View_RFQ.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-24T18:03:44.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Reports.aspx",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Reports.aspx",
+              "RelativeDocumentMoniker": "Techfix\\Pages\\Reports.aspx",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Reports.aspx",
+              "RelativeToolTip": "Techfix\\Pages\\Reports.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-24T18:01:42.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Edit_Supplier.aspx",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Edit_Supplier.aspx",
+              "RelativeDocumentMoniker": "Techfix\\Pages\\Edit_Supplier.aspx",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Edit_Supplier.aspx",
+              "RelativeToolTip": "Techfix\\Pages\\Edit_Supplier.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-24T17:59:07.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Update_Supplier.aspx",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Update_Supplier.aspx",
+              "RelativeDocumentMoniker": "Techfix\\Pages\\Update_Supplier.aspx",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Update_Supplier.aspx",
+              "RelativeToolTip": "Techfix\\Pages\\Update_Supplier.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-24T17:56:29.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Update_User.aspx",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Update_User.aspx",
+              "RelativeDocumentMoniker": "Techfix\\Pages\\Update_User.aspx",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Update_User.aspx",
+              "RelativeToolTip": "Techfix\\Pages\\Update_User.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-24T11:22:54.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Update_User.aspx.cs",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Update_User.aspx.cs",
+              "RelativeDocumentMoniker": "Techfix\\Pages\\Update_User.aspx.cs",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Update_User.aspx.cs",
+              "RelativeToolTip": "Techfix\\Pages\\Update_User.aspx.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAuwGsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T11:25:54.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Edit_User.aspx.cs",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Edit_User.aspx.cs",
+              "RelativeDocumentMoniker": "Techfix\\Pages\\Edit_User.aspx.cs",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Edit_User.aspx.cs",
+              "RelativeToolTip": "Techfix\\Pages\\Edit_User.aspx.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAwwIYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T11:30:32.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Edit_User.aspx",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Edit_User.aspx",
+              "RelativeDocumentMoniker": "Techfix\\Pages\\Edit_User.aspx",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Edit_User.aspx",
+              "RelativeToolTip": "Techfix\\Pages\\Edit_User.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-24T11:29:25.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User_Management.aspx",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\User_Management.aspx",
+              "RelativeDocumentMoniker": "Techfix\\Pages\\User_Management.aspx",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\User_Management.aspx",
+              "RelativeToolTip": "Techfix\\Pages\\User_Management.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-24T11:00:16.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Admin_Dashboard.aspx",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Admin_Dashboard.aspx",
+              "RelativeDocumentMoniker": "Techfix\\Pages\\Admin_Dashboard.aspx",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Admin_Dashboard.aspx",
+              "RelativeToolTip": "Techfix\\Pages\\Admin_Dashboard.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-24T10:50:52.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Orders.aspx.cs",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Orders.aspx.cs",
+              "RelativeDocumentMoniker": "Techfix\\Pages\\Orders.aspx.cs",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Orders.aspx.cs",
+              "RelativeToolTip": "Techfix\\Pages\\Orders.aspx.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwC0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T15:10:58.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Add_Delivery.aspx.cs",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Add_Delivery.aspx.cs",
+              "RelativeDocumentMoniker": "Techfix\\Pages\\Add_Delivery.aspx.cs",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Add_Delivery.aspx.cs",
+              "RelativeToolTip": "Techfix\\Pages\\Add_Delivery.aspx.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowDMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T04:53:36.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Delivery.aspx.cs",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Delivery.aspx.cs",
+              "RelativeDocumentMoniker": "Techfix\\Pages\\Delivery.aspx.cs",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Delivery.aspx.cs",
+              "RelativeToolTip": "Techfix\\Pages\\Delivery.aspx.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAYwEMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T04:14:31.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Delivery.aspx",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Delivery.aspx",
+              "RelativeDocumentMoniker": "Techfix\\Pages\\Delivery.aspx",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Delivery.aspx",
+              "RelativeToolTip": "Techfix\\Pages\\Delivery.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-24T04:13:45.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Web.config",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\TechfixSystem\\Web.config",
+              "RelativeDocumentMoniker": "TechfixSystem\\Web.config",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\TechfixSystem\\Web.config",
+              "RelativeToolTip": "TechfixSystem\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-07-24T04:11:06.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Web.config",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\Techfix\\Web.config",
+              "RelativeDocumentMoniker": "Techfix\\Web.config",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\Techfix\\Web.config",
+              "RelativeToolTip": "Techfix\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-07-24T04:10:38.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "DBAccess.cs",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\TechfixSystem\\DBLayer\\DBAccess.cs",
+              "RelativeDocumentMoniker": "TechfixSystem\\DBLayer\\DBAccess.cs",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\TechfixSystem\\DBLayer\\DBAccess.cs",
+              "RelativeToolTip": "TechfixSystem\\DBLayer\\DBAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T03:41:47.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Add_Supplier.aspx",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Add_Supplier.aspx",
+              "RelativeDocumentMoniker": "Techfix\\Pages\\Add_Supplier.aspx",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Add_Supplier.aspx",
+              "RelativeToolTip": "Techfix\\Pages\\Add_Supplier.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-08T06:46:17.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Login.aspx",
+              "RelativeDocumentMoniker": "Techfix\\Pages\\Login.aspx",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Login.aspx",
+              "RelativeToolTip": "Techfix\\Pages\\Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-08T07:45:27.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UserLogic.cs",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\TechfixSystem\\AppLogic\\UserLogic.cs",
+              "RelativeDocumentMoniker": "TechfixSystem\\AppLogic\\UserLogic.cs",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\TechfixSystem\\AppLogic\\UserLogic.cs",
+              "RelativeToolTip": "TechfixSystem\\AppLogic\\UserLogic.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAQwF4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T07:28:58.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Add_User.aspx.cs",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Add_User.aspx.cs",
+              "RelativeDocumentMoniker": "Techfix\\Pages\\Add_User.aspx.cs",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Add_User.aspx.cs",
+              "RelativeToolTip": "Techfix\\Pages\\Add_User.aspx.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAQwEAAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T07:28:28.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Add_User.aspx",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Add_User.aspx",
+              "RelativeDocumentMoniker": "Techfix\\Pages\\Add_User.aspx",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Add_User.aspx",
+              "RelativeToolTip": "Techfix\\Pages\\Add_User.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-08T07:28:09.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Supplier_Dashboard.aspx",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Supplier_Dashboard.aspx",
+              "RelativeDocumentMoniker": "Techfix\\Pages\\Supplier_Dashboard.aspx",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Supplier_Dashboard.aspx",
+              "RelativeToolTip": "Techfix\\Pages\\Supplier_Dashboard.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-08T07:09:05.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Manager_Dashboard.aspx",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Manager_Dashboard.aspx",
+              "RelativeDocumentMoniker": "Techfix\\Pages\\Manager_Dashboard.aspx",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Manager_Dashboard.aspx",
+              "RelativeToolTip": "Techfix\\Pages\\Manager_Dashboard.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-08T07:07:35.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Supplier_Management.aspx",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Supplier_Management.aspx",
+              "RelativeDocumentMoniker": "Techfix\\Pages\\Supplier_Management.aspx",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Supplier_Management.aspx",
+              "RelativeToolTip": "Techfix\\Pages\\Supplier_Management.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-08T07:02:21.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Login.aspx.cs",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Login.aspx.cs",
+              "RelativeDocumentMoniker": "Techfix\\Pages\\Login.aspx.cs",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Login.aspx.cs",
+              "RelativeToolTip": "Techfix\\Pages\\Login.aspx.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAkwIAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T06:07:34.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Orders.aspx",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Orders.aspx",
+              "RelativeDocumentMoniker": "Techfix\\Pages\\Orders.aspx",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Orders.aspx",
+              "RelativeToolTip": "Techfix\\Pages\\Orders.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-01-05T15:10:57.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Order_Placement.aspx",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Order_Placement.aspx",
+              "RelativeDocumentMoniker": "Techfix\\Pages\\Order_Placement.aspx",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Order_Placement.aspx",
+              "RelativeToolTip": "Techfix\\Pages\\Order_Placement.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-01-05T15:09:11.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Inventory.aspx.cs",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Inventory.aspx.cs",
+              "RelativeDocumentMoniker": "Techfix\\Pages\\Inventory.aspx.cs",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Inventory.aspx.cs",
+              "RelativeToolTip": "Techfix\\Pages\\Inventory.aspx.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAIwEsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T18:00:39.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Inventory.aspx",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Inventory.aspx",
+              "RelativeDocumentMoniker": "Techfix\\Pages\\Inventory.aspx",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Inventory.aspx",
+              "RelativeToolTip": "Techfix\\Pages\\Inventory.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-01-04T18:00:34.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "View_Delivery.aspx.cs",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\View_Delivery.aspx.cs",
+              "RelativeDocumentMoniker": "Techfix\\Pages\\View_Delivery.aspx.cs",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\View_Delivery.aspx.cs",
+              "RelativeToolTip": "Techfix\\Pages\\View_Delivery.aspx.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T17:59:33.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Edit_Delivery.aspx.cs",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Edit_Delivery.aspx.cs",
+              "RelativeDocumentMoniker": "Techfix\\Pages\\Edit_Delivery.aspx.cs",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Edit_Delivery.aspx.cs",
+              "RelativeToolTip": "Techfix\\Pages\\Edit_Delivery.aspx.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAUwFkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T17:56:58.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Edit_Delivery.aspx",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Edit_Delivery.aspx",
+              "RelativeDocumentMoniker": "Techfix\\Pages\\Edit_Delivery.aspx",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Edit_Delivery.aspx",
+              "RelativeToolTip": "Techfix\\Pages\\Edit_Delivery.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-01-04T17:55:12.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Add_Delivery.aspx",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Add_Delivery.aspx",
+              "RelativeDocumentMoniker": "Techfix\\Pages\\Add_Delivery.aspx",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\Add_Delivery.aspx",
+              "RelativeToolTip": "Techfix\\Pages\\Add_Delivery.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-01-04T17:44:13.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "PurchaseOrderDB.cs",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\TechfixSystem\\DBLayer\\PurchaseOrderDB.cs",
+              "RelativeDocumentMoniker": "TechfixSystem\\DBLayer\\PurchaseOrderDB.cs",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\TechfixSystem\\DBLayer\\PurchaseOrderDB.cs",
+              "RelativeToolTip": "TechfixSystem\\DBLayer\\PurchaseOrderDB.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAmwDAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T19:40:05.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "RFQLogic.cs",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\TechfixSystem\\AppLogic\\RFQLogic.cs",
+              "RelativeDocumentMoniker": "TechfixSystem\\AppLogic\\RFQLogic.cs",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\TechfixSystem\\AppLogic\\RFQLogic.cs",
+              "RelativeToolTip": "TechfixSystem\\AppLogic\\RFQLogic.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAkwDUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T19:39:12.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "QuotationLogic.cs",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\TechfixSystem\\AppLogic\\QuotationLogic.cs",
+              "RelativeDocumentMoniker": "TechfixSystem\\AppLogic\\QuotationLogic.cs",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\TechfixSystem\\AppLogic\\QuotationLogic.cs",
+              "RelativeToolTip": "TechfixSystem\\AppLogic\\QuotationLogic.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T19:38:57.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "DeliveryLogic.cs",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\TechfixSystem\\AppLogic\\DeliveryLogic.cs",
+              "RelativeDocumentMoniker": "TechfixSystem\\AppLogic\\DeliveryLogic.cs",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\TechfixSystem\\AppLogic\\DeliveryLogic.cs",
+              "RelativeToolTip": "TechfixSystem\\AppLogic\\DeliveryLogic.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAmwA4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T19:36:25.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "DeliveryDB.cs",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\TechfixSystem\\DBLayer\\DeliveryDB.cs",
+              "RelativeDocumentMoniker": "TechfixSystem\\DBLayer\\DeliveryDB.cs",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\TechfixSystem\\DBLayer\\DeliveryDB.cs",
+              "RelativeToolTip": "TechfixSystem\\DBLayer\\DeliveryDB.cs",
+              "ViewState": "AgIAAMoAAAAAAAAAAAAAwPIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T19:34:28.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "View_Delivery.aspx",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\View_Delivery.aspx",
+              "RelativeDocumentMoniker": "Techfix\\Pages\\View_Delivery.aspx",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\Techfix\\Pages\\View_Delivery.aspx",
+              "RelativeToolTip": "Techfix\\Pages\\View_Delivery.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-01-04T17:54:59.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "DeliveryService.asmx.cs",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\TechfixSystem\\Services\\DeliveryService.asmx.cs",
+              "RelativeDocumentMoniker": "TechfixSystem\\Services\\DeliveryService.asmx.cs",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\TechfixSystem\\Services\\DeliveryService.asmx.cs",
+              "RelativeToolTip": "TechfixSystem\\Services\\DeliveryService.asmx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T19:25:44.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "QuotationService.asmx.cs",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\TechfixSystem\\Services\\QuotationService.asmx.cs",
+              "RelativeDocumentMoniker": "TechfixSystem\\Services\\QuotationService.asmx.cs",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\TechfixSystem\\Services\\QuotationService.asmx.cs",
+              "RelativeToolTip": "TechfixSystem\\Services\\QuotationService.asmx.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwCQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T19:24:06.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "UserService.asmx.cs",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\TechfixSystem\\Services\\UserService.asmx.cs",
+              "RelativeDocumentMoniker": "TechfixSystem\\Services\\UserService.asmx.cs",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\TechfixSystem\\Services\\UserService.asmx.cs",
+              "RelativeToolTip": "TechfixSystem\\Services\\UserService.asmx.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAA6wDwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T19:20:59.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "RFQDB.cs",
+              "DocumentMoniker": "F:\\Project 01\\TechfixSystem\\TechfixSystem\\DBLayer\\RFQDB.cs",
+              "RelativeDocumentMoniker": "TechfixSystem\\DBLayer\\RFQDB.cs",
+              "ToolTip": "F:\\Project 01\\TechfixSystem\\TechfixSystem\\DBLayer\\RFQDB.cs",
+              "RelativeToolTip": "TechfixSystem\\DBLayer\\RFQDB.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAkwHYAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T19:40:37.494Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

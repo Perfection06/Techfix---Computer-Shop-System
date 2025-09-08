@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:tns="http://tempuri.org/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetAllRFQs">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetAllRFQsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAllRFQsResult" type="tns:ArrayOfRFQ" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfRFQ">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="RFQ" nillable="true" type="tns:RFQ" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="RFQ">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="RFQID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ProductDescription" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Quantity" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Specifications" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DeliveryRequirements" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PricingFormat" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PaymentTerms" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="ValidityPeriod" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="RequestDate" type="s:dateTime" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ManageRFQ">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="rfqID" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="productDescription" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="quantity" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="specifications" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="deliveryRequirements" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pricingFormat" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="paymentTerms" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="validityPeriod" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ManageRFQResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ManageRFQResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetRFQByID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="rfqID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetRFQByIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetRFQByIDResult" type="tns:RFQ" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetQuotationsByRFQID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="rfqID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetQuotationsByRFQIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetQuotationsByRFQIDResult" type="tns:ArrayOfQuotation" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfQuotation">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Quotation" nillable="true" type="tns:Quotation" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Quotation">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="QuotationID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="RFQID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="SupplierID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="SupplierName" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="QuotationAmount" type="s:decimal" />
+          <s:element minOccurs="0" maxOccurs="1" name="DeliverySchedule" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="QuotationDetails" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="SubmissionDate" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="DeleteRFQ">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="rfqID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteRFQResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DeleteRFQResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetAllRFQsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAllRFQs" />
+  </wsdl:message>
+  <wsdl:message name="GetAllRFQsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAllRFQsResponse" />
+  </wsdl:message>
+  <wsdl:message name="ManageRFQSoapIn">
+    <wsdl:part name="parameters" element="tns:ManageRFQ" />
+  </wsdl:message>
+  <wsdl:message name="ManageRFQSoapOut">
+    <wsdl:part name="parameters" element="tns:ManageRFQResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetRFQByIDSoapIn">
+    <wsdl:part name="parameters" element="tns:GetRFQByID" />
+  </wsdl:message>
+  <wsdl:message name="GetRFQByIDSoapOut">
+    <wsdl:part name="parameters" element="tns:GetRFQByIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetQuotationsByRFQIDSoapIn">
+    <wsdl:part name="parameters" element="tns:GetQuotationsByRFQID" />
+  </wsdl:message>
+  <wsdl:message name="GetQuotationsByRFQIDSoapOut">
+    <wsdl:part name="parameters" element="tns:GetQuotationsByRFQIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteRFQSoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteRFQ" />
+  </wsdl:message>
+  <wsdl:message name="DeleteRFQSoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteRFQResponse" />
+  </wsdl:message>
+  <wsdl:portType name="RFQServiceSoap">
+    <wsdl:operation name="GetAllRFQs">
+      <wsdl:input message="tns:GetAllRFQsSoapIn" />
+      <wsdl:output message="tns:GetAllRFQsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ManageRFQ">
+      <wsdl:input message="tns:ManageRFQSoapIn" />
+      <wsdl:output message="tns:ManageRFQSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRFQByID">
+      <wsdl:input message="tns:GetRFQByIDSoapIn" />
+      <wsdl:output message="tns:GetRFQByIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetQuotationsByRFQID">
+      <wsdl:input message="tns:GetQuotationsByRFQIDSoapIn" />
+      <wsdl:output message="tns:GetQuotationsByRFQIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteRFQ">
+      <wsdl:input message="tns:DeleteRFQSoapIn" />
+      <wsdl:output message="tns:DeleteRFQSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="RFQServiceSoap" type="tns:RFQServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetAllRFQs">
+      <soap:operation soapAction="http://tempuri.org/GetAllRFQs" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ManageRFQ">
+      <soap:operation soapAction="http://tempuri.org/ManageRFQ" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRFQByID">
+      <soap:operation soapAction="http://tempuri.org/GetRFQByID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetQuotationsByRFQID">
+      <soap:operation soapAction="http://tempuri.org/GetQuotationsByRFQID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteRFQ">
+      <soap:operation soapAction="http://tempuri.org/DeleteRFQ" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="RFQServiceSoap12" type="tns:RFQServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetAllRFQs">
+      <soap12:operation soapAction="http://tempuri.org/GetAllRFQs" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ManageRFQ">
+      <soap12:operation soapAction="http://tempuri.org/ManageRFQ" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRFQByID">
+      <soap12:operation soapAction="http://tempuri.org/GetRFQByID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetQuotationsByRFQID">
+      <soap12:operation soapAction="http://tempuri.org/GetQuotationsByRFQID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteRFQ">
+      <soap12:operation soapAction="http://tempuri.org/DeleteRFQ" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="RFQService">
+    <wsdl:port name="RFQServiceSoap" binding="tns:RFQServiceSoap">
+      <soap:address location="http://localhost:56267/Services/RFQService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="RFQServiceSoap12" binding="tns:RFQServiceSoap12">
+      <soap12:address location="http://localhost:56267/Services/RFQService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
